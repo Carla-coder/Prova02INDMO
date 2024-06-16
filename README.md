@@ -1,4 +1,3 @@
-
 ## Sumário
 
 - Introdução
@@ -16,8 +15,6 @@
 - Como Executar o Projeto Localmente
 
 - API OMDB
-
-
 
 ## Introdução
 
@@ -55,12 +52,9 @@ cinemanamao/
 └── ...
 
 ```
-
 ## Detalhes de Implementação
 
 O projeto utiliza React para criar uma aplicação SPA (Single Page Application), onde cada rota é gerenciada pelo React Router. As páginas são componentes funcionais que fazem chamadas assíncronas à API do OMDB para obter informações sobre filmes. A integração com a API é feita através do uso de fetch e async/await para lidar com promessas.
-
-
 
 ## Estilização
 
@@ -79,7 +73,6 @@ A estilização é feita principalmente através de estilos inline e objetos de 
 
 Cada seção é projetada para proporcionar uma experiência única e interativa.
 
-
 ## Tecnologias utilizadas
 
 - **React**: Biblioteca JavaScript para a construção da interface do usuário.
@@ -91,6 +84,7 @@ Cada seção é projetada para proporcionar uma experiência única e interativa
 - **HTML5 e CSS3**: Utilizados para estruturação e estilização da aplicação.
 
 - **JavaScript (ES6+)**: Linguagem principal para lógica de programação e manipulação de dados.
+  
 ## Configurações do projeto
 
 ### Como Executar o Projeto Localmente
@@ -118,11 +112,6 @@ npm start
 
 - Certifique-se de ter uma conexão com a internet ativa para que as requisições à API do OMDB funcionem corretamente.
 
-
-
-
-
-
 ## API OMDB
 
 A API OMDB (Open Movie Database) é uma API pública que fornece informações detalhadas sobre filmes, séries de TV e outros tipos de mídia. Utilizamos a API OMDB para buscar informações como título, ano, sinopse, pôster e outros detalhes dos filmes. Para fazer requisições à API OMDB, é necessário um apikey.
@@ -137,44 +126,36 @@ Detalhes dos Filmes: http://www.omdbapi.com/?i=${movie.imdbID}&apikey=8ad25d0e
 ```
 
 A documentação completa da API pode ser encontrada em https://www.omdbapi.com/
+
+## Print das Telas
+
+- Tela 1
+
+![destaques](https://github.com/Carla-coder/Prova02INDMO/assets/128012862/d5994be7-39a0-44d9-87db-b6a310012342)
+
+- Tela 2
+
+![busca](https://github.com/Carla-coder/Prova02INDMO/assets/128012862/8b117995-0539-4127-bab7-d19c1898d3f9)
+
+- Tela 3
+
+![busca 2](https://github.com/Carla-coder/Prova02INDMO/assets/128012862/87b83c73-4ad9-4836-b150-bca31293d735)
+
+- Tela 4
+
+![filmes](https://github.com/Carla-coder/Prova02INDMO/assets/128012862/c57f04f4-ec55-447b-9a4f-aa8abdf6e0cd)
+
+- Tela 5
+
+![contato](https://github.com/Carla-coder/Prova02INDMO/assets/128012862/52a74113-1c6c-401f-9f36-adc1592648f5)
+
 ## Autores
 
 - [@octokatherine](https://www.github.com/octokatherine)
-
 
 ## Instituição de Ensino
 
 - Escola Senai unidade Jaguariúna - Curso Técnico em Desenvolvimento de Sistemas FullStack - Segundo Semestre (2024)
 
 - Professor responsável pelo Projeto: Robson B. Souza https://github.com/robsonbsouzaa
-## Estrutura de arquivos
 
-A estrutura de arquivos do projeto está organizada da seguinte maneira:
-
-```
-cinemanamao/
-│
-├── public/
-│   ├── index.html
-│   └── ... (outros arquivos públicos)
-│
-├── src/
-│   ├── components/
-│   │   ├── Navbar.js
-│   │   └── ... (outros componentes)
-│   │
-│   ├── pages/
-│   │   ├── Busca.js
-│   │   ├── Destaques.js
-│   │   ├── Indicacao.js
-│   │   ├── Contato.js
-│   │   └── ... (outras páginas)
-│   │
-│   ├── App.js
-│   ├── index.js
-│   └── ...
-│
-├── package.json
-└── ...
-
-```
