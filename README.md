@@ -119,10 +119,10 @@ A API OMDB (Open Movie Database) é uma API pública que fornece informações d
 Exemplos de uso na aplicação:
 
 ```
-Busca de Filmes: http://www.omdbapi.com/?s=${query}&apikey=8ad25d0e
+Busca de Filmes: http://www.omdbapi.com/?s=${query}&apikey={api_key}
 ```
 ```
-Detalhes dos Filmes: http://www.omdbapi.com/?i=${movie.imdbID}&apikey=8ad25d0e
+Detalhes dos Filmes: http://www.omdbapi.com/?i=${movie.imdbID}&apikey={api_key}
 ```
 
 A documentação completa da API pode ser encontrada em https://www.omdbapi.com/
