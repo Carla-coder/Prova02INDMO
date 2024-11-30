@@ -151,7 +151,7 @@ A documentação completa da API pode ser encontrada em https://www.omdbapi.com/
 
 ## Autores
 
-- [@octokatherine](https://www.github.com/Carla-coder)
+- [@Carla-coder](https://www.github.com/Carla-coder)
 
 ## Instituição de Ensino
 
